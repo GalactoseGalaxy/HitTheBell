@@ -9,12 +9,12 @@ This project is a web extension for Microsoft Edge. It aims to give the user not
 ### **Adding Channels**
 The user can search the YouTube database for channels they want to stay updated on, with an "Add" button to easily add them to the list
 
-![Example Picture: Add Button](./examples/example2.jpg)
+![Example Picture: Add Button](./examples/example2.gif)
 
 ### **Deleting Channels**
 The user can remove channels if they don't want to follow them anymore.
 
-![Example Picture: Delete Button](./examples/example3.jpg)
+![Example Picture: Delete Button](./examples/example3.gif)
 
 ### **Notifications**
 A blue dot will appear next to channels that have a new video since the last time the extension was opened. It can be removed by clicking on the channel name, bringing the user to the channel's page.
