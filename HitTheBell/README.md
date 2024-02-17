@@ -4,22 +4,22 @@
 ### **General Goal**
 This project is a web extension for Microsoft Edge. It aims to give the user notifications when a YouTube channel uploads a new video.
 
-![Example Picture: Extension](https://raw.githubusercontent.com/GalactoseGalaxy/HitTheBell/examples/example1.jpg)
+![Example Picture: Extension](./examples/example1.jpg)
 
 ### **Adding Channels**
 The user can search the YouTube database for channels they want to stay updated on, with an "Add" button to easily add them to the list
 
-![Example Picture: Add Button](https://raw.githubusercontent.com/GalactoseGalaxy/HitTheBell/examples/example2.jpg)
+![Example Picture: Add Button](./examples/example2.jpg)
 
 ### **Deleting Channels**
 The user can remove channels if they don't want to follow them anymore.
 
-![Example Picture: Delete Button](https://raw.githubusercontent.com/GalactoseGalaxy/HitTheBell/examples/example3.jpg)
+![Example Picture: Delete Button](./examples/example3.jpg)
 
 ### **Notifications**
 A blue dot will appear next to channels that have a new video since the last time the extension was opened. It can be removed by clicking on the channel name, bringing the user to the channel's page.
 
-![Example Picture: Notifications](https://raw.githubusercontent.com/GalactoseGalaxy/HitTheBell/examples/example4.jpg)
+![Example Picture: Notifications](./examples/example4.jpg)
 
 ### **The Specifics**
 Because this is a web extension, this project needed a manifest.json file, an html file, javascript files, and css files. Also, this project would not be possible without accessing the YouTube API. I had to go to the Google Cloud Console and make a project to get an API key that I could use to pull information about YouTube channels and the information about their videos.
