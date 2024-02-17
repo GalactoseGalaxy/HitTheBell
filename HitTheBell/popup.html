@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HitTheBell</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <div class="header-container">
+      <img src="icon.svg" alt="Extension Icon" class="extension-icon">
+      <h1 class="extension-name">HitTheBell</h1>
+    </div>
+    <hr>
+    <div class="align-items-center list-group search-bar">
+      <input type="text" class="search-channel form-control list-group-item" id="search-input" placeholder="Add Channel">
+      <ul id="search-results" class="row">
+        <!-- Search results will be added here -->
+      </ul>
+    </div>
+    <hr>
+    <div class="list-group mt-3">
+      <ul id="youtuber-list" class="channel-list">
+        <!-- List of youtubers will be added here -->
+      </ul>
+    </div>
+  </div>
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+*:not(input, textarea) {
+  caret-color: transparent; /* Set caret color to transparent */
+}
+.form-control {
+  font-family: Roboto,Noto,sans-serif;
+}
+.hidden {
+  display: none;
+}
+.popup-container {
+  width: 300px; /* Adjust the width as needed */
+  padding: 20px;
+  border: 3px solid #070606;
+}
+.header-container {
+  display: flex; /* Use flexbox layout */
+  align-items: center;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+.extension-name {
+  margin: 0;
+  margin-right: auto;
+}
+.extension-icon {
+  margin-right: 15px;
+  width: 50px; 
+  height: 50px;
+}
+.btn.invisible {
+  visibility: hidden;
+}
+.search-channel {
+  margin: auto;
+}
+.channel-list {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+.list-group-item {
+  display: flex; /* Use flexbox layout */
+  align-items: center; /* Align items vertically */
+  padding: 3px;
+}
+.borderless {
+  border: none;
+}
+.iconContainer {
+  position: relative;
+  margin-right: 10px; /* Add some space between the icon and the hyperlink */
+  width: 50px; /* Adjust width and height as needed */
+  height: 50px;
+  
+}
+.icon {
+  width: 50px; /* Ensure the image fills the circular container */
+  height: 100%;
+  border-radius: 50%; /* Apply circular mask */
+  overflow: hidden; /* Hide overflow content (e.g., if image is larger than container) */
+  object-fit: cover; /* Maintain aspect ratio and fill the container */
+}
+.notificationIcon {
+  
+  position: absolute; /* Set position to absolute */
+  top: 50%; 
+  left: -24px; 
+  transform: translateY(-50%); /* Center vertically */
+}
+.list-group-item a {
+  flex: 1; /* Allow the hyperlink to grow and take up remaining space */
+  color: inherit; /* Inherit color from parent (removes default blue color) */
+  text-decoration: none; /* Remove default underline */
+  font-size: large;
+}
+.list-group-item button {
+  margin-left: auto; /* Push the delete button to the right */
+}
