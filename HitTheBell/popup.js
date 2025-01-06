@@ -1,4 +1,4 @@
-// used chatgpt to research how to interact with the youtube api and to optimize the code using cashe, local storage, and debounce timers, as well as some error checking
+// used chatgpt to research how to interact with the youtube api and to optimize the code using cache, local storage, and debounce timers, as well as some error checking
 
 // sets light/dark mode
 const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
